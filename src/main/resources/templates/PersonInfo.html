@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>New Person</h1>
-<form th:action="@{/AddPerson}" th:object="${Person}" method="post">
+<form th:action="@{/SavePerson}" th:object="${Person}" method="post">
+    <input type="hidden" th:field="*{id}">
     <p>
         <div>First Name</div>
         <div><input type="text" th:field="*{first_name}"/></div>
@@ -23,6 +24,9 @@
     <p>
         <div>Avatar</div>
         <div><input type="text" th:field="*{avatar}"/></div>
+        <div>
+            <img th:src="@{*{avatar}}"/>
+        </div>
     </p>
 
     <p>
