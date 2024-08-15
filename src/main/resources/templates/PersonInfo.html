@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>New Person</h1>
-<form th:action="@{/SavePerson}" th:object="${Person}" method="post">
+<form th:action="@{/SavePerson}" th:object="${Person}" method="post" enctype="multipart/form-data">
     <input type="hidden" th:field="*{id}">
     <p>
         <div>First Name</div>
@@ -24,8 +24,11 @@
     <p>
         <div>Avatar</div>
         <div><input type="text" th:field="*{avatar}"/></div>
-        <div>
+        <div th:if="*{avatar!=null}">
             <img th:src="@{*{avatar}}"/>
+        </div>
+        <div th:if="*{avatar==null}">
+            <input type="file" name="avatarupload"/>
         </div>
     </p>
 
