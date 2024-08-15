@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReqRes</title>
+    <link th:href="page.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Hello ReqRes users!</h1>
+        <div class="btn-add-wrapper">
+            <button class="btn-add">Add</button>
+        </div>
+    </div>
+    <div class="person-list">
+        <div class="person" th:each="person: ${Persons}">
+            <p class="name" th:text="${person.last_name}"></p>
+            <p class="email" th:text="${person.email}"></p>
+            <p class="avatar">
+                <img th:src="${person.avatar}"/>
+            </p>
+            <p>
+                <a href="#" class="btn btn-edit">Edit</a>
+                <a href="#" class="btn btn-delete">Delete</a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
