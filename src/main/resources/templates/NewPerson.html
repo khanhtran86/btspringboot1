@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Person</title>
+</head>
+<body>
+<h1>New Person</h1>
+<form th:action="@{/AddPerson}" th:object="${Person}" method="post">
+    <p>
+        <div>First Name</div>
+        <div><input type="text" th:field="*{first_name}"/></div>
+    </p>
+    <p>
+        <div>Last Name</div>
+        <div><input type="text" th:field="*{last_name}"/></div>
+    </p>
+    <p>
+        <div>Email</div>
+        <div><input type="text" th:field="*{email}"/></div>
+    </p>
+
+    <p>
+        <div>Avatar</div>
+        <div><input type="text" th:field="*{avatar}"/></div>
+    </p>
+
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+</body>
+</html>
