@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <link th:href="@{page.css}" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Students List</h1>
+    <div class="student-box" th:each="student: ${students}" th:object="${student}">
+        <p>
+            <div>Name</div>
+            <div><b><span th:text="*{Name}"></span></b></div>
+        </p>
+        <p>
+            <div>Email</div>
+            <div><b><a th:href="@{'mailto:' + *{Email}}" th:text="*{Email}"></a></b></div>
+        </p>
+        <p>
+            <div>Date of birth</div>
+            <div><b><span th:text="*{#temporals.format(birthday, 'dd/MM/yyyy')}"></span></b></div>
+        </p>
+        <p>
+            <div>Salary</div>
+            <div><b><span th:text="*{#numbers.formatDecimal(salary,3,'COMMA',3,'POINT') + '$'}"></span></b></div>
+        </p>
+        <p>
+            <div>Introduction</div>
+            <div th:utext="*{Description}"></div>
+        </p>
+    </div>
+</body>
+</html>
