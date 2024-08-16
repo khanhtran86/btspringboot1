@@ -1,0 +1,41 @@
+2024-08-16T09:39:42.944+07:00  INFO 13272 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : Starting DemoprjApplication using Java 17.0.10 with PID 13272 (D:\gitdemo\Spring\demoprj\target\classes started by iPMAC in D:\gitdemo\Spring\demoprj)
+2024-08-16T09:39:42.947+07:00  INFO 13272 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-16T09:39:42.991+07:00  INFO 13272 --- [demoprj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-16T09:39:42.991+07:00  INFO 13272 --- [demoprj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-16T09:39:43.818+07:00  INFO 13272 --- [demoprj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-16T09:39:43.827+07:00  INFO 13272 --- [demoprj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-16T09:39:43.828+07:00  INFO 13272 --- [demoprj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-16T09:39:43.865+07:00  INFO 13272 --- [demoprj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-16T09:39:43.865+07:00  INFO 13272 --- [demoprj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2024-08-16T09:39:44.476+07:00  INFO 13272 --- [demoprj] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-16T09:39:44.690+07:00  INFO 13272 --- [demoprj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-16T09:39:44.719+07:00  INFO 13272 --- [demoprj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-16T09:39:44.727+07:00  INFO 13272 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : Started DemoprjApplication in 2.111 seconds (process running for 2.606)
+2024-08-16T09:39:50.300+07:00  INFO 13272 --- [demoprj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-16T09:39:50.300+07:00  INFO 13272 --- [demoprj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-16T09:39:50.301+07:00  INFO 13272 --- [demoprj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-16T09:39:50.329+07:00  INFO 13272 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is information content
+2024-08-16T09:39:50.329+07:00  WARN 13272 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is warning!
+2024-08-16T09:39:50.329+07:00 ERROR 13272 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is error from application
+2024-08-16T09:39:51.469+07:00  INFO 13272 --- [demoprj] [http-nio-8080-exec-2] c.s.demoprj.controller.LogController     : This is information content
+2024-08-16T09:39:51.469+07:00  WARN 13272 --- [demoprj] [http-nio-8080-exec-2] c.s.demoprj.controller.LogController     : This is warning!
+2024-08-16T09:39:51.469+07:00 ERROR 13272 --- [demoprj] [http-nio-8080-exec-2] c.s.demoprj.controller.LogController     : This is error from application
+2024-08-16T09:40:26.435+07:00  INFO 10412 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : Starting DemoprjApplication using Java 17.0.10 with PID 10412 (D:\gitdemo\Spring\demoprj\target\classes started by iPMAC in D:\gitdemo\Spring\demoprj)
+2024-08-16T09:40:26.438+07:00  INFO 10412 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-16T09:40:26.479+07:00  INFO 10412 --- [demoprj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-16T09:40:26.479+07:00  INFO 10412 --- [demoprj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-16T09:40:27.292+07:00  INFO 10412 --- [demoprj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-16T09:40:27.302+07:00  INFO 10412 --- [demoprj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-16T09:40:27.302+07:00  INFO 10412 --- [demoprj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-16T09:40:27.345+07:00  INFO 10412 --- [demoprj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-16T09:40:27.346+07:00  INFO 10412 --- [demoprj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 866 ms
+2024-08-16T09:40:28.020+07:00  INFO 10412 --- [demoprj] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-16T09:40:28.254+07:00  INFO 10412 --- [demoprj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-16T09:40:28.284+07:00  INFO 10412 --- [demoprj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-16T09:40:28.293+07:00  INFO 10412 --- [demoprj] [restartedMain] com.samsung.demoprj.DemoprjApplication   : Started DemoprjApplication in 2.182 seconds (process running for 2.689)
+2024-08-16T09:40:31.444+07:00  INFO 10412 --- [demoprj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-16T09:40:31.444+07:00  INFO 10412 --- [demoprj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-16T09:40:31.445+07:00  INFO 10412 --- [demoprj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-16T09:40:31.475+07:00  INFO 10412 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is information content
+2024-08-16T09:40:31.475+07:00  WARN 10412 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is warning!
+2024-08-16T09:40:31.475+07:00 ERROR 10412 --- [demoprj] [http-nio-8080-exec-1] c.s.demoprj.controller.LogController     : This is error from application
